@@ -8,7 +8,7 @@ var BearSchema   = new Schema({
 module.exports = mongoose.model('Bear', BearSchema);
 
 
-link_to_db='mongodb://aayvazy:Armik123$@cluster0-shard-00-00-yicxy.mongodb.net:27017,cluster0-shard-00-01-yicxy.mongodb.net:27017,cluster0-shard-00-02-yicxy.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin'
+link_to_db='mongodb://aayvazy:mypass@cluster0-shard-00-00-yicxy.mongodb.net:27017,cluster0-shard-00-01-yicxy.mongodb.net:27017,cluster0-shard-00-02-yicxy.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin'
 
 // var mydb = MongoClient.connect(link_to_db, function (err, db) {
 //   if (err) throw err
